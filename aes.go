@@ -58,7 +58,7 @@ func AesDecrypt(cryptedPlaint string, key []byte) (string, error) {
 }
 
 func main() {
-	var aeskey = []byte("890883191387831973281786d9876345") //秘钥
+	var aeskey = []byte("89987777777777777777777777777777") //秘钥
 	passText := []byte("123") //明文
 	xpass, err := AesEncrypt(passText, aeskey)
 	if err != nil {
